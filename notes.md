@@ -9,3 +9,9 @@ https://inmoonlight.github.io/2021/02/21/PyTorch-IterableDataset/
 -> Parallel 사용시 데이터가 중복될 수 있으니 유의할 것  
 
 #DEEP LEARNING  
+
+#GIT
+Three stages to commit a file
+add     : adding the file to the staging area
+commit  : commit the file to the git (make sure to follow git convention)
+push    : upload the commit to the github
