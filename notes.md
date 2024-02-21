@@ -1,6 +1,8 @@
 # PYTHON <br/>
 The Purpose of the if __name__ == '__main__': (KOREAN) <br/>
 -> [Link1] 파이썬은 import 파일의 모든 요소가 실행되기 때문, 방지 차원에서 사용하는 라인 <br/>
+The Purpose of the super(클래스,self).__init__() <br/>
+-> [Link4] 자식 클래스(Student)가 상속받는 부모 클래스(Human)를 자식 클래스(Student)에 불러오겠다는 의미 <br/>
 
 # PYTORCH <br/>
 Difference of Map-style dataloader and Iterable dataloader (KOREAN): <br/>
@@ -19,3 +21,4 @@ push    : upload the commit to the github<br/>
 [Link1]: https://velog.io/@mjk3136/if-name-main%EC%9D%80-%EC%99%9C-%ED%95%84%EC%9A%94%ED%95%9C%EC%A7%80%EC%97%90-%EB%8C%80%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90
 [Link2]: https://inmoonlight.github.io/2021/02/21/PyTorch-IterableDataset/
 [Link3]: https://discuss.pytorch.org/t/which-one-is-correct-to-initialize-separate-layer/55640
+[Link4]: https://supermemi.tistory.com/entry/Python-3-super%ED%81%B4%EB%9E%98%EC%8A%A4-selfinit-%EC%97%90-%EB%8C%80%ED%95%B4-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90
