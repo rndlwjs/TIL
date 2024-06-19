@@ -18,6 +18,9 @@ add     : adding the file to the staging area<br/>
 commit  : commit the file to the git (make sure to follow git convention)<br/>
 push    : upload the commit to the github<br/>
 
+# REGEX<br/>
+문장부호 + 한국어 를 regex로 일괄수정하는 방법<br/>
+txt = re.sub("([?!.,\]])([가-힣])", r"\1 \2", txt) #괄호는 \1를 대변함 <br/>
 [Link1]: https://velog.io/@mjk3136/if-name-main%EC%9D%80-%EC%99%9C-%ED%95%84%EC%9A%94%ED%95%9C%EC%A7%80%EC%97%90-%EB%8C%80%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90
 [Link2]: https://inmoonlight.github.io/2021/02/21/PyTorch-IterableDataset/
 [Link3]: https://discuss.pytorch.org/t/which-one-is-correct-to-initialize-separate-layer/55640
