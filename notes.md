@@ -3,6 +3,13 @@ The Purpose of the if __name__ == '__main__': (KOREAN) <br/>
 -> [Link1] 파이썬은 import 파일의 모든 요소가 실행되기 때문, 방지 차원에서 사용하는 라인 <br/>
 The Purpose of the super(클래스,self).__init__() <br/>
 -> [Link4] 자식 클래스(Student)가 상속받는 부모 클래스(Human)를 자식 클래스(Student)에 불러오겠다는 의미 <br/>
+If Float error occurs by the deprecated Numpy version, use the following codes <br/>
+```
+np.float = float
+np.int = int   #module 'numpy' has no attribute 'int'
+np.object = object    #module 'numpy' has no attribute 'object'
+np.bool = bool    #module 'numpy' has no attribute 'bool'
+```
 
 # PYTORCH <br/>
 Difference of Map-style dataloader and Iterable dataloader (KOREAN): <br/>
